@@ -20,7 +20,7 @@ Dedicated laser mode with real-time power visualization, feedrate and laser powe
 ![Laser Mode](assets/Laser.png)
 
 ### Trace
-Trace your toolpath bounding box directly on the machine before cutting. Sends the spindle along the outline of your job so you can verify positioning, check for clamp clearance, and ensure the workpiece is correctly placed.
+Trace your toolpath bounding box directly on the material or workpiece to see if the job will fit.
 
 ![Trace](assets/Trace.gif)
 
