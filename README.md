@@ -1,6 +1,6 @@
-# ncSender Pro Releases
+# ncSenderPro Releases
 
-Official release binaries for **ncSender Pro** - a professional CNC streaming software for GRBL-based machines.
+Official release binaries for **ncSenderPro** - a professional CNC streaming software for GRBL-based machines.
 
 ## Features
 
@@ -37,15 +37,15 @@ Download the latest release for your platform from the [Releases](https://github
 
 | Platform | Architecture | Format |
 |----------|--------------|--------|
-| Windows | x64 | `.exe`, `.msi` |
+| Windows | x64 | `.exe` |
 | macOS | Apple Silicon (arm64) | `.dmg` |
-| Linux | x64 | `.AppImage`, `.deb` |
-| Linux | ARM64 (Raspberry Pi) | `.AppImage`, `.deb` |
+| Linux | x64 | `.deb` |
+| Linux | ARM64 (Raspberry Pi) |  `.deb` |
 
 ## Installation
 
 ### Windows
-Download and run the `.exe` installer or `.msi` package.
+Download and run the `.exe` installer.
 
 ### macOS
 1. Download the `.dmg` file for your Mac
@@ -57,11 +57,6 @@ Download and run the `.exe` installer or `.msi` package.
    Open Terminal (Applications → Utilities → Terminal), paste the command above, and press Enter. After that, you can open ncSender Pro normally.
 
 ### Linux
-**AppImage:**
-```bash
-chmod +x ncSender_*.AppImage
-./ncSender_*.AppImage
-```
 
 **Debian/Ubuntu (.deb):**
 ```bash
