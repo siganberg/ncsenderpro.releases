@@ -19,6 +19,11 @@ Dedicated laser mode with real-time power visualization, feedrate and laser powe
 
 ![Laser Mode](assets/Laser.png)
 
+### Trace
+Trace your toolpath bounding box directly on the machine before cutting. Sends the spindle along the outline of your job so you can verify positioning, check for clamp clearance, and ensure the workpiece is correctly placed.
+
+![Trace](assets/Trace.gif)
+
 ### Virtual Keyboard
 Built-in virtual keyboard for kiosk and touchscreen setups where no physical keyboard is attached, allowing input on any text field.
 
