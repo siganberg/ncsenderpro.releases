@@ -29,6 +29,16 @@ Built-in virtual keyboard for kiosk and touchscreen setups where no physical key
 
 ![Virtual Keyboard](assets/VirtualKeyboard.png)
 
+### Safety Door Intelligence
+
+![Safety Door](assets/door-safety.webp)
+
+Enhanced safety door handling for professional machines with `$61` (Ignore when idle) support:
+- **Automatic spindle stop** — When the door opens while the spindle is running manually (no active job), M5 is sent automatically to stop the spindle immediately.
+- **Controlled jogging in door state** — Allows slow jogging while the door is open for setup and inspection, with feed rate automatically limited to safe speeds (1000 mm/min).
+- **Safety command processor** — All jog commands from both the UI and pendant are routed through the safety processor, which limits feed rates and blocks unsafe rapid moves when the door is open.
+- **Clear terminal feedback** — Door-limited commands are annotated in the terminal so operators can see when and why limits are applied.
+
 ## Download
 
 Download the latest release for your platform from the [Releases](https://github.com/siganberg/ncSenderProReleases/releases) page.
